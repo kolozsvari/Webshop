@@ -1,0 +1,52 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Webshop_teszt",
+    "collectionId": "337a1514-d386-43a0-af6a-d4b5cc424876",
+    "dateExported": "2025-01-09T09:12:47.300Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d213f4f7-fc3e-4f43-998c-79f07e7729e9",
+            "colId": "337a1514-d386-43a0-af6a-d4b5cc424876",
+            "containerId": "",
+            "name": "get all webshop",
+            "url": "http://127.0.0.1:8000/api/webshop",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-01-09T08:35:24.006Z",
+            "modified": "2025-01-09T08:48:22.085Z",
+            "headers": []
+        },
+        {
+            "_id": "2865487d-b3dd-43c9-80b3-deab6d232aab",
+            "colId": "337a1514-d386-43a0-af6a-d4b5cc424876",
+            "containerId": "",
+            "name": "get webshop by id",
+            "url": "http://127.0.0.1:8000/api/webshop/3",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-01-09T08:36:26.339Z",
+            "modified": "2025-01-09T08:36:44.519Z",
+            "headers": []
+        },
+        {
+            "_id": "85246cd4-d05a-43fa-b8a0-49716f383ec0",
+            "colId": "337a1514-d386-43a0-af6a-d4b5cc424876",
+            "containerId": "",
+            "name": "updatewebshop by id",
+            "url": "http://127.0.0.1:8000/api/webshop/1",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2025-01-09T08:46:29.028Z",
+            "modified": "2025-01-09T08:48:29.825Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{ \"price\": 3000}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "V33TE8SBI_itoX8HFfyO6aqBryD0GGL24ojBtyj5iU48yh2iUx6wceDAw8xr-5_qGrR2ybJJ3SvF_cBNarWT1Q"
+}
